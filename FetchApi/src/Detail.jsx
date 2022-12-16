@@ -31,11 +31,9 @@ const Detail = () => {
                 </div>
                 <div className='detail_holder-right'>
                     <div className='detail_holder-right1'>
-                        <h3>Description:{items.description} </h3>
-                        <p>Category:{items.category}</p>
-                        {/* <p>Rating: {items.rating.rate}</p>
-                        <p>Votes: {items.rating.count}</p> */}
-                        <button>Add to Cart</button>
+                        <p> <b>Description: </b>{items.description} </p>
+                        <p><b>Category:</b> {items.category}</p>
+                        <button id='Botton'>Add to Cart</button>
                     </div>
 
                 </div>
