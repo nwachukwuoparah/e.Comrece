@@ -39,7 +39,7 @@ function Comp() {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 3000,
+        speed: 7000,
         autoplaySpeed: 2000,
         cssEase: "linear"
     };

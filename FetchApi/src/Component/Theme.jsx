@@ -1,3 +1,4 @@
+import '../App.css'
 import { useState } from "react"
 const Theme = () => {
     const [theme, setTheme] = useState(false)
@@ -28,7 +29,7 @@ const Theme = () => {
         borderRadius: 50,
     }
     return (
-        <div>
+        <div className='theme'>
             <div onClick={() => { setTheme(!theme) }} style={theme ? wrap : wrap1}>
                 <div style={ball}></div>
             </div>
