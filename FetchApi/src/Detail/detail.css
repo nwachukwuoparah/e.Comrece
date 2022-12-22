@@ -12,26 +12,28 @@
 }
 .detail_holder {
   width: 60%;
-  height: 70%;
+  height: auto;
   display: flex;
-  padding: 10px;
+  padding : 10px;
   gap: 20px;
   border-radius: 5px;
   background-color: white;
+  margin-top: 60px;
 }
 
 .detail_holder-left {
   width: 35%;
+  /* background-color: red; */
 }
-.detail_holder-left h4 {
+.detail_holder-left p{
   font-size: 15px;
   width: 100%;
   margin: 15px 0px 0px 15px;
 }
-.Image {
-  background-color: #f8f8f8;
+.Image{
+  /* background-color: red; */
   width: 100%;
-  height: 89%;
+  height: 80%;
 }
 .detail_holder-right {
   width: 65%;
@@ -62,7 +64,7 @@
   width: 50%;
   height: 50px;
   border-radius: 5px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .detail_image {
   width: 100%;
